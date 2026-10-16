@@ -1,0 +1,6 @@
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\obj\Debug\net9.0-windows\mgcb.tool.restore
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\obj\Debug\net9.0-windows\MonoGameLibraryCross.csproj.AssemblyReference.cache
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\obj\Debug\net9.0-windows\MonoGameLibraryCross.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\obj\Debug\net9.0-windows\MonoGameLibraryCross.AssemblyInfoInputs.cache
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\obj\Debug\net9.0-windows\MonoGameLibraryCross.AssemblyInfo.cs
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\obj\Debug\net9.0-windows\MonoGameLibraryCross.csproj.CoreCompileInputs.cache

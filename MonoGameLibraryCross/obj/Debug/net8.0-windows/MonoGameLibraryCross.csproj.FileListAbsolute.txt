@@ -1,0 +1,1 @@
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\obj\Debug\net8.0-windows\mgcb.tool.restore

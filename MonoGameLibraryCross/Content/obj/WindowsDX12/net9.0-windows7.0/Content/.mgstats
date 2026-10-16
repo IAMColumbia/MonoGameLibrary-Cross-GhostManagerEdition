@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/pacmanSingle.png","C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/bin/WindowsDX12/Content/pacmanSingle.xnb","TextureProcessor","Texture2DContent",2204,11533,0.0855244
+"C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/PurpleGhost.png","C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/bin/WindowsDX12/Content/PurpleGhost.xnb","TextureProcessor","Texture2DContent",1368,11749,0.0024854
+"C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/SpriteMarker.png","C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/bin/WindowsDX12/Content/SpriteMarker.xnb","TextureProcessor","Texture2DContent",232,185,0.0018476

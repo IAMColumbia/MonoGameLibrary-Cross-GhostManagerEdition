@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cdosxRYcPIk=",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\MonoGameLibraryCross.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lathb\\.nuget\\packages\\monogame.content.builder.task\\3.8.5.1\\monogame.content.builder.task.3.8.5.1.nupkg.sha512",
+    "C:\\Users\\lathb\\.nuget\\packages\\monogame.framework.native\\3.8.5.1\\monogame.framework.native.3.8.5.1.nupkg.sha512",
+    "C:\\Users\\lathb\\.nuget\\packages\\monogame.runtime.windows.dx12\\3.8.5.1\\monogame.runtime.windows.dx12.3.8.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

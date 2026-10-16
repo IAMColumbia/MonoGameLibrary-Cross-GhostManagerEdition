@@ -1,0 +1,12 @@
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.deps.json
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.dll
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.pdb
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.csproj.AssemblyReference.cache
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.AssemblyInfoInputs.cache
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.AssemblyInfo.cs
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.csproj.CoreCompileInputs.cache
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.dll
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\obj\Debug\net9.0\refint\MonoGameLibrary.dll
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.pdb
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibrary\obj\Debug\net9.0\ref\MonoGameLibrary.dll
