@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrarycross\\game2testghostmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|solutionrelative:monogamelibrarycross\\game2testghostmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\gameconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\gameconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrarycross\\ghostmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|solutionrelative:monogamelibrarycross\\ghostmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,48 +19,8 @@
       "RelativeMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|solutionrelative:monogamelibrarycross\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrarycross\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|solutionrelative:monogamelibrarycross\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\gameconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\gameconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrarycross\\menloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|solutionrelative:monogamelibrarycross\\menloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\gravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\gravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\drawablesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\drawablesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrarycross\\monogamelibrarycross.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D45178D6-C7E1-46E4-86C4-4781E2B4E6C7}|MonoGameLibraryCross\\MonoGameLibraryCross.csproj|solutionrelative:monogamelibrarycross\\monogamelibrarycross.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\workspace\\gameprogramming1\\monogamelibrarycross\\monogamelibrary\\fps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFAAB27D-554A-4B0E-B2D2-F860459B83B6}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\fps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,39 +62,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\Game1.cs",
-              "RelativeDocumentMoniker": "MonoGameLibraryCross\\Game1.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\Game1.cs",
-              "RelativeToolTip": "MonoGameLibraryCross\\Game1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Game2TestGhostManager.cs",
+              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\Game2TestGhostManager.cs",
+              "RelativeDocumentMoniker": "MonoGameLibraryCross\\Game2TestGhostManager.cs",
+              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\Game2TestGhostManager.cs",
+              "RelativeToolTip": "MonoGameLibraryCross\\Game2TestGhostManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T22:52:09.751Z",
+              "WhenOpened": "2026-10-16T20:16:36.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ghost.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\Ghost.cs",
-              "RelativeDocumentMoniker": "MonoGameLibraryCross\\Ghost.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\Ghost.cs",
-              "RelativeToolTip": "MonoGameLibraryCross\\Ghost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Title": "GameConsole.cs",
+              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\GameConsole.cs",
+              "RelativeDocumentMoniker": "MonoGameLibrary\\GameConsole.cs",
+              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\GameConsole.cs",
+              "RelativeToolTip": "MonoGameLibrary\\GameConsole.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAArwLMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T19:04:17.122Z",
+              "WhenOpened": "2026-10-16T21:26:50.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GhostManager.cs",
               "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\GhostManager.cs",
               "RelativeDocumentMoniker": "MonoGameLibraryCross\\GhostManager.cs",
               "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\GhostManager.cs",
               "RelativeToolTip": "MonoGameLibraryCross\\GhostManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-16T19:01:28.35Z",
               "EditorCaption": ""
@@ -134,124 +102,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InputHandler.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\InputHandler.cs",
-              "RelativeDocumentMoniker": "MonoGameLibrary\\InputHandler.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\InputHandler.cs",
-              "RelativeToolTip": "MonoGameLibrary\\InputHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgBAAAtAAAAAAAAAA==",
+              "Title": "Ghost.cs",
+              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\Ghost.cs",
+              "RelativeDocumentMoniker": "MonoGameLibraryCross\\Ghost.cs",
+              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\Ghost.cs",
+              "RelativeToolTip": "MonoGameLibraryCross\\Ghost.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwC4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T20:34:20.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MenLoader.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\MenLoader.cs",
-              "RelativeDocumentMoniker": "MonoGameLibraryCross\\MenLoader.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\MenLoader.cs",
-              "RelativeToolTip": "MonoGameLibraryCross\\MenLoader.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDgAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T21:28:22.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Wall.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Wall.cs",
-              "RelativeDocumentMoniker": "MonoGameLibrary\\Wall.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Wall.cs",
-              "RelativeToolTip": "MonoGameLibrary\\Wall.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowEoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T22:29:29.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Class1.cs",
-              "RelativeDocumentMoniker": "MonoGameLibrary\\Class1.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Class1.cs",
-              "RelativeToolTip": "MonoGameLibrary\\Class1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T23:04:21.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Gravity.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Gravity.cs",
-              "RelativeDocumentMoniker": "MonoGameLibrary\\Gravity.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Gravity.cs",
-              "RelativeToolTip": "MonoGameLibrary\\Gravity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T21:46:03.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Sprite.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Sprite.cs",
-              "RelativeDocumentMoniker": "MonoGameLibrary\\Sprite.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Sprite.cs",
-              "RelativeToolTip": "MonoGameLibrary\\Sprite.cs",
-              "ViewState": "AgIAAIMBAAAAAAAAAAAhwJIBAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T20:52:24.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DrawableSprite.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\DrawableSprite.cs",
-              "RelativeDocumentMoniker": "MonoGameLibrary\\DrawableSprite.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\DrawableSprite.cs",
-              "RelativeToolTip": "MonoGameLibrary\\DrawableSprite.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T20:54:59.452Z",
+              "WhenOpened": "2026-10-16T19:04:17.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GameConsole.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\GameConsole.cs",
-              "RelativeDocumentMoniker": "MonoGameLibrary\\GameConsole.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\GameConsole.cs",
-              "RelativeToolTip": "MonoGameLibrary\\GameConsole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Title": "FPS.cs",
+              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\FPS.cs",
+              "RelativeDocumentMoniker": "MonoGameLibrary\\FPS.cs",
+              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\FPS.cs",
+              "RelativeToolTip": "MonoGameLibrary\\FPS.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAArwIkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T23:10:37.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Class2.cs",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Class2.cs",
-              "RelativeDocumentMoniker": "MonoGameLibrary\\Class2.cs",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibrary\\Class2.cs",
-              "RelativeToolTip": "MonoGameLibrary\\Class2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T23:04:48.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MonoGameLibraryCross.csproj",
-              "DocumentMoniker": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\MonoGameLibraryCross.csproj",
-              "RelativeDocumentMoniker": "MonoGameLibraryCross\\MonoGameLibraryCross.csproj",
-              "ToolTip": "C:\\Workspace\\GameProgramming1\\MonoGameLibraryCross\\MonoGameLibraryCross\\MonoGameLibraryCross.csproj",
-              "RelativeToolTip": "MonoGameLibraryCross\\MonoGameLibraryCross.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-29T22:31:07.019Z"
+              "WhenOpened": "2026-10-16T21:32:57.846Z",
+              "EditorCaption": ""
             }
           ]
         }

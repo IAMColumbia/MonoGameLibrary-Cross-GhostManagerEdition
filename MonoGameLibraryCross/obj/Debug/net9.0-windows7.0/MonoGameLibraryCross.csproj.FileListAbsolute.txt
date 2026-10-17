@@ -23,3 +23,6 @@ C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\bin\Debu
 C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\bin\Debug\net9.0-windows7.0\Content\pacmanSingle.xnb
 C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\bin\Debug\net9.0-windows7.0\Content\PurpleGhost.xnb
 C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\bin\Debug\net9.0-windows7.0\Content\SpriteMarker.xnb
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\bin\Debug\net9.0-windows7.0\Content\GhostHit.xnb
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\bin\Debug\net9.0-windows7.0\Content\SpriteFont1.xnb
+C:\Workspace\GameProgramming1\MonoGameLibraryCross\MonoGameLibraryCross\bin\Debug\net9.0-windows7.0\Content\DefaultFont.xnb

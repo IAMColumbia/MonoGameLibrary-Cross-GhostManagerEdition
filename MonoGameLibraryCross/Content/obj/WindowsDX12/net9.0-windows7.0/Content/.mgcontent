@@ -4,11 +4,17 @@
   <Platform>WindowsDX12</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/DefaultFont.spritefont</File>
+    <File>C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/GhostHit.png</File>
     <File>C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/pacmanSingle.png</File>
     <File>C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/PurpleGhost.png</File>
+    <File>C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/SpriteFont1.spritefont</File>
     <File>C:/Workspace/GameProgramming1/MonoGameLibraryCross/MonoGameLibraryCross/Content/SpriteMarker.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

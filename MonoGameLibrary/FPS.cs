@@ -1,8 +1,7 @@
 
 #region Using Statements
-using System;
-using System.Collections.Generic;
 using Microsoft.Xna.Framework;
+using System;
 #endregion
 
 namespace MonoGameLibrary.Util
@@ -11,7 +10,7 @@ namespace MonoGameLibrary.Util
     /// This is a game component that implements DrawableGameComponent.
     /// It's to profile performance
     /// </summary>
-     
+
 
     public sealed class FPS : Microsoft.Xna.Framework.DrawableGameComponent
     {
@@ -29,8 +28,9 @@ namespace MonoGameLibrary.Util
 
         public FPS(Game game, bool synchWithVerticalRetrace, bool isFixedTimeStep)
             : this(game, synchWithVerticalRetrace, isFixedTimeStep,
-                   game.TargetElapsedTime) { }
-        
+                   game.TargetElapsedTime)
+        { }
+
         public FPS(Game game) : this(game, false, true) { }
 
         public FPS(Game game, bool synchWithVerticalRetrace,
@@ -49,7 +49,7 @@ namespace MonoGameLibrary.Util
             graphics.ApplyChanges();
 
             console = (GameConsole)this.Game.Services.GetService<IGameConsole>();
-            if(console == null) //Lazily add console if missing
+            if (console == null) //Lazily add console if missing
             {
                 console = new GameConsole(this.Game);
                 this.Game.Components.Add(console);
@@ -61,7 +61,7 @@ namespace MonoGameLibrary.Util
             if (updateTimeFixed)
             {
                 updateTimeFixed = false;
-                
+
             }
             else
             {
@@ -73,7 +73,7 @@ namespace MonoGameLibrary.Util
             typeof(IGraphicsDeviceManager));
 
             Game.IsFixedTimeStep = updateTimeFixed;
-            graphics.ApplyChanges(); 
+            graphics.ApplyChanges();
         }
 
         public void ToggleSynchronizeWithVerticalRetrace()
@@ -92,7 +92,7 @@ namespace MonoGameLibrary.Util
                 typeof(IGraphicsDeviceManager));
 
             graphics.SynchronizeWithVerticalRetrace = synchronizeWithVerticalRetrace;
-            graphics.ApplyChanges(); 
+            graphics.ApplyChanges();
         }
 
         /// <summary>
@@ -102,7 +102,7 @@ namespace MonoGameLibrary.Util
         /// </summary>
         public sealed override void Initialize()
         {
-            
+
             base.Initialize();
         }
 
@@ -114,7 +114,7 @@ namespace MonoGameLibrary.Util
         {
             //Only logs frames if in Debug Mode
 #if DEBUG
-            
+
             elapsedTime += gameTime.ElapsedGameTime;
 
             if (elapsedTime > TimeSpan.FromSeconds(1))
@@ -135,7 +135,7 @@ namespace MonoGameLibrary.Util
         {
 #if DEBUG
             frameCounter++;
-            fps = string.Format("fps: {0} slow:{1}", frameRate, gameTime.IsRunningSlowly);
+            fps = string.Format(" {0} Slow: {1}", frameRate, gameTime.IsRunningSlowly);
 #if XBOX360
             //if gamecomponent GameConsole is present use if not use System.Diagnostics
             if(console == null)
@@ -154,7 +154,7 @@ namespace MonoGameLibrary.Util
             }
             else
             {
-                console.Log("fps", fps);
+                console.Log("FPS", fps);
             }
 #endif   
 #endif

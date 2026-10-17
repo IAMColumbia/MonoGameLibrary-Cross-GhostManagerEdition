@@ -3,11 +3,11 @@ using System;
 
 namespace MonoGameLibraryCross
 {
-    /*  GhostManager should be able to handle an arbitrary number of ghosts
-        GhostManager should move and draw the ghosts on each update and draw
-        GhostManager should check for Ghost on Ghost collision and change the ghosts direction if the collide
-        GhostManager should create 4 ghosts in random locations and make sure that the ghosts don't spawn on top of each other
-        GhostManager should be able to add and remove ghosts at any time,
+    /*  GhostManager should be able to handle an arbitrary number of ghosts CHECK
+        GhostManager should move and draw the ghosts on each update and draw CHECK
+        GhostManager should check for Ghost on Ghost collision and change the ghosts direction if the collide CHECK
+        GhostManager should create 4 ghosts in random locations and make sure that the ghosts don't spawn on top of each other CHECK
+        GhostManager should be able to add and remove ghosts at any time CHECK
     */
     public class GhostManager : GameComponent
     {
@@ -20,25 +20,40 @@ namespace MonoGameLibraryCross
 
         public override void Initialize()
         {
-            numGhosts = 4;
+            Initialize(4);
+        }
+
+        public void Initialize(int count)
+        {
+            numGhosts = count;
             ghosts = new Ghost[numGhosts];
             for (int i = 0; i < numGhosts; i++)
             {
-                ghosts[i] = new Ghost(this.Game);
+                ghosts[i] = new Ghost(this.Game, ghosts);
                 this.Game.Components.Add(ghosts[i]);
             }
             base.Initialize();
         }
-
         public override void Update(GameTime gameTime)
+        {
+            CheckGhostCollisions();
+            base.Update(gameTime);
+        }
+        public void CheckGhostCollisions()
         {
             for (int i = 0; i < numGhosts; i++)
             {
-                ghosts[i].Update(gameTime);
+                for (int j = i + 1; j < numGhosts; j++)
+                {
+                    Ghost a = ghosts[i], b = ghosts[j];
+                    if (a.Intersects(b))
+                    {
+                        a.RetargetAwayFrom(b.Location);
+                        b.RetargetAwayFrom(a.Location);
+                    }
+                }
             }
-            base.Update(gameTime);
         }
-
         public void AddGhost(Ghost ghost)
         {
             numGhosts++;
@@ -59,6 +74,14 @@ namespace MonoGameLibraryCross
                 }
                 numGhosts--;
                 Array.Resize(ref ghosts, numGhosts);
+            }
+        }
+
+        public void Draw(GameTime gameTime)
+        {
+            for (int i = 0; i < numGhosts; i++)
+            {
+                ghosts[i].Draw(gameTime);
             }
         }
     }

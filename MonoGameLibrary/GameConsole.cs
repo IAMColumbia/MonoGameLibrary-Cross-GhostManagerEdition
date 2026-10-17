@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
+using System.Collections.Generic;
 //using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.Content;
 
 namespace MonoGameLibrary.Util
 {
@@ -18,7 +15,7 @@ namespace MonoGameLibrary.Util
 
     public interface IGameConsole
     {
-        string FontName { get; set;}    //Font to use for Game Console it must be loadable by pipline tool
+        string FontName { get; set; }    //Font to use for Game Console it must be loadable by pipline tool
         string DebugText { get; set; }  //Text that displays on every frame
         Dictionary<string, string> DebugTextOutput { get; set; } //Text that is added to the Debugtext with a specfic header
 
@@ -53,7 +50,7 @@ namespace MonoGameLibrary.Util
 
         SpriteFont font;
         SpriteBatch spriteBatch;
-        
+
         protected List<string> gameConsoleText;
         protected GameConsoleState gameConsoleState;
 
@@ -61,31 +58,31 @@ namespace MonoGameLibrary.Util
         public Keys ToggleConsoleKey;
 
         InputHandler input;     //GameConsole depends on InputHandler
-        
+
         public GameConsole(Game game)
             : base(game)
         {
-            
+
             this.fontName = "Arial";        //default font
             this.gameConsoleText = new List<string>();
             this.maxLines = 20;             //deafult nuber of lines
             this.debugText = "Console default \ndebug text";
             this.ToggleConsoleKey = Keys.OemTilde;  //default key
-            this.debugTextStartX = 400;     //Default locationX
-            this.debugTextStartY = 0;       //Default locationY
-            
+            this.debugTextStartX = 10;     //Default locationX
+            this.debugTextStartY = 10;       //Default locationY
+
 
             this.debugTextOutput = new Dictionary<string, string>();
 
             this.gameConsoleState = GameConsoleState.Open;
 
-           
+
             input = (InputHandler)game.Services.GetService(typeof(IInputHandler));
             //Make sure input service exsists if not lazily add one
             if (input == null)
             {
                 //try to add one
-                input= new InputHandler(game);
+                input = new InputHandler(game);
                 game.Components.Add(input);
 
                 //Check again
@@ -112,7 +109,7 @@ namespace MonoGameLibrary.Util
                 }
                 catch
                 {
-                    font = this.Game.Content.Load<SpriteFont>("SpriteFont1");
+                    font = this.Game.Content.Load<SpriteFont>("DefaultFont");
                 }
             }
             spriteBatch = new SpriteBatch(GraphicsDevice);
@@ -126,14 +123,14 @@ namespace MonoGameLibrary.Util
         /// </summary>
         public override void Initialize()
         {
-            
-            
+
+
             base.Initialize();
         }
 
         protected override void UnloadContent()
         {
-            
+
 
             base.UnloadContent();
         }
@@ -144,13 +141,13 @@ namespace MonoGameLibrary.Util
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
-            
-            
-            if(input.KeyboardState.HasReleasedKey(ToggleConsoleKey))
+
+
+            if (input.KeyboardState.HasReleasedKey(ToggleConsoleKey))
             {
-                this.ToggleConsole();   
+                this.ToggleConsole();
             }
-            
+
             base.Update(gameTime);
         }
 
@@ -175,14 +172,14 @@ namespace MonoGameLibrary.Util
             {
                 spriteBatch.Begin();
                 spriteBatch.DrawString(font, GetGameConsoleText(), Vector2.Zero, Color.Wheat);
-                
+
                 //Collect data added fron the dictionary
                 debugTextOutString = String.Empty;
                 foreach (var item in debugTextOutput)
                 {
-                    debugTextOutString += "\n" +  item.Key + " : " + item.Value;
+                    debugTextOutString += "\n" + item.Key + ":" + item.Value;
                 }
-                
+
                 spriteBatch.DrawString(font, debugText + debugTextOutString, new Vector2(debugTextStartX, debugTextStartY), Color.Wheat);
 
                 spriteBatch.End();
@@ -196,15 +193,15 @@ namespace MonoGameLibrary.Util
 
             string[] current = new string[Math.Min(gameConsoleText.Count, MaxLines)];
             int offsetLines = (gameConsoleText.Count / maxLines) * maxLines;
-            
+
             int offest = gameConsoleText.Count - offsetLines;
 
             int indexStart = offsetLines - (maxLines - offest);
             if (indexStart < 0)
                 indexStart = 0;
-            
+
             gameConsoleText.CopyTo(
-                indexStart, current, 0 , Math.Min(gameConsoleText.Count, MaxLines));
+                indexStart, current, 0, Math.Min(gameConsoleText.Count, MaxLines));
 
             foreach (string s in current)
             {
@@ -223,12 +220,12 @@ namespace MonoGameLibrary.Util
         /// <param name="DebugValue">The vlaue to display must be a string</param>
         public void Log(string DebugKey, string DebugValue)
         {
-            if(this.debugTextOutput.ContainsKey(DebugKey))
+            if (this.debugTextOutput.ContainsKey(DebugKey))
             {
                 debugTextOutput[DebugKey] = DebugValue;
                 return;
             }
-            debugTextOutput.Add(DebugKey, DebugValue); 
+            debugTextOutput.Add(DebugKey, DebugValue);
         }
 
         /// <summary>
@@ -240,7 +237,12 @@ namespace MonoGameLibrary.Util
             gameConsoleText.Add(s);
         }
 
-        //Console State
-        public enum GameConsoleState { Closed, Open};
+        public void ClearConsole()
+        {
+            gameConsoleText.Clear();
+        }
     }
+
+    //Console State
+    public enum GameConsoleState { Closed, Open };
 }
